@@ -118,7 +118,7 @@ body{
 .win-poster{
     position: absolute;
     top: 15%;
-    left: 24%;
+    left: calc(50% - 305px);
 
     background-color: rgba(0, 0, 0, 0.911);
     border: solid 5px magenta;
