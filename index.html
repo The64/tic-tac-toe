@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <title>Tic tac toe</title>
+</head>
+<body>
+
+    <div class="top-container">
+
+        <div class="player-x turn">
+            <div class="x">X</div>
+            <div class="turn-text-x">TURN</div>   
+        </div>
+
+
+        <div class="player-o">
+            <div class="o">O</div>
+            <div class="turn-text-o">TURN</div>  
+        </div>
+
+    </div>
+    
+    <div class="game-container">
+
+        <div class="squares squares-hover font 1"></div>
+        <div class="squares squares-hover font 2"></div>
+        <div class="squares squares-hover font 3"></div>
+        <div class="squares squares-hover font 4"></div>
+        <div class="squares squares-hover font 5"></div>
+        <div class="squares squares-hover font 6"></div>
+        <div class="squares squares-hover font 7"></div>
+        <div class="squares squares-hover font 8"></div>
+        <div class="squares squares-hover font 9"></div>
+
+    </div>
+
+    <div class="overlay" hidden>
+
+        <div class="win-poster" hidden>
+
+            <h2 class="win-poster-text">CONGRATULATIONS</h2>
+            <h2 class="winner" hidden></h2>
+            <h2 class="win-poster-text">YOU WIN</h2>
+            <button class="win-button">PLAY AGAIN</button>
+
+        </div>
+        
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
